@@ -1,1 +1,1 @@
-Powershell -executionpolicy remotesigned -File  C:\CFU\usb.ps1 > C:\CFU\log.log
+Powershell -executionpolicy remotesigned -File  PATH TO <usb.ps1> > PATH TO <log.log>
