@@ -1,9 +1,9 @@
 # CFU
-Scrip by PowerShell for copy and format flash drive.
+Script by PowerShell for copy and format flash drive.
 
 ## Description
 
- - Skrip triggered by inserting USB flash in to PC.
+ - Skript triggered by inserting USB flash in to PC.
  - Automaticly copy files in flash to path directory. Default user Desktop in folder CopiedFiles.
  - After copy, format USB flash drive and eject it.
  - For Windows systems
