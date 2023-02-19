@@ -6,12 +6,13 @@ Scrip by PowerShell for copy and format flash drive.
  - Skrip triggered by inserting USB flash in to PC.
  - Automaticly copy files in flash to path directory. Default user Desktop in folder CopiedFiles.
  - After copy, format USB flash drive and eject it.
+ - For Windows systems
 
 ## Deployment
 
 To deploy this project run
 
-```PowerShell
+```bat
   start.bat 
 ```
 
@@ -31,3 +32,13 @@ Set WinScriptHost = Nothing
 Powershell -executionpolicy remotesigned -File  PATH TO <usb.ps1> > PATH TO <log.log>
 ```
 - Replace PATH TO with path to file usb.ps1 and to log.log.
+
+## Support
+
+For some error of Authorization run two lines below in PowerShell as administrator:
+```PowerShell
+Get-ExecutionPolicy
+```
+```PowerShell
+Set-ExecutionPolicy RemoteSigned
+```
