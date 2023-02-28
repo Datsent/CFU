@@ -1,0 +1,1 @@
+Powershell -executionpolicy remotesigned -File  C:\CFU\usb.ps1 > C:\CFU\log.log
